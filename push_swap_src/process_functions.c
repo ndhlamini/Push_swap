@@ -6,7 +6,7 @@
 /*   By: ndlamini <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/27 12:35:31 by ndlamini          #+#    #+#             */
-/*   Updated: 2019/09/27 12:35:34 by ndlamini         ###   ########.fr       */
+/*   Updated: 2019/09/27 12:40:31 by ndlamini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -123,5 +123,5 @@ int		rra_rb(int element, int *a, int a_c, int i)
 	}
 	a_c = pb(a, a_c, i);
 	ft_putstr("pb\n");
-	re
+	return (a_c);
 }

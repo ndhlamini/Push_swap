@@ -6,7 +6,7 @@
 /*   By: ndlamini <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/27 11:35:32 by ndlamini          #+#    #+#             */
-/*   Updated: 2019/09/27 11:35:50 by ndlamini         ###   ########.fr       */
+/*   Updated: 2019/09/27 12:41:26 by ndlamini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,4 +89,5 @@ int		check_small(int *a, int a_c, int element)
 			sm = a[j];
 		j++;
 	}
+	return (sm);
 }
