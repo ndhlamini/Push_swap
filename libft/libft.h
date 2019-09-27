@@ -6,7 +6,7 @@
 /*   By: ndlamini <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 09:23:16 by ndlamini          #+#    #+#             */
-/*   Updated: 2019/09/27 12:01:54 by ndlamini         ###   ########.fr       */
+/*   Updated: 2019/09/27 12:31:54 by ndlamini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <limits.h>
+# define BUFF_SIZE 32
 
 int					ft_atoi(const char *str);
 void				ft_bzero(void *s, size_t n);
