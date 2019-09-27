@@ -6,11 +6,11 @@
 /*   By: ndlamini <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/02 08:36:53 by ndlamini          #+#    #+#             */
-/*   Updated: 2019/07/02 08:38:47 by ndlamini         ###   ########.fr       */
+/*   Updated: 2019/09/27 12:32:53 by ndlamini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 static int		ft_getbuffer(const int fd, char **line)
 {
